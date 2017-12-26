@@ -1,14 +1,18 @@
 {
-  "name": "nodejs-test",
+  "name": "MEAN-Stack-Blog-Project",
   "version": "1.0.0",
-  "description": "first nodejs project",
+  "description": "Developing it for learning MEAN Stack",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ravijagga/MEAN-Stack-Blog-Project.git"
+  },
   "keywords": [
-    "test",
+    "api",
     "nodejs"
   ],
   "author": "Ravi Jagga",
