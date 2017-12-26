@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-test",
+  "version": "1.0.0",
+  "description": "first nodejs project",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test",
+    "nodejs"
+  ],
+  "author": "Ravi Jagga",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.0-rc0",
+    "mongoose": "^4.13.7",
+    "path": "^0.12.7"
+  }
+}
