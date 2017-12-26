@@ -26,8 +26,4 @@ PUT | /api/posts/:id/comments/:id | Update a comment by ID
 DELETE | /api/posts/:id/comments/:id | Delete a comment by ID
 
 ## Stage-2: Frontend Developement
-<<<<<<< HEAD
 Frontend developement and connecting it with backend API using **AngularJS**
-=======
-Frontend developement and connecting it with backend API using **AngularJS**
->>>>>>> 97db191b8100074042cfed8d45082b04f2c95e2e
