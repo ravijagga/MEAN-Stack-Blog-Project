@@ -1,7 +1,7 @@
-# MEAN Stack Blog Project
+# MEAN Stack Blog Project (Under Developement!)
 Developing it for learning MEAN Stack web development
 
-## Stage-1: Backend API Development (Currently Working on it)
+## Stage-1: Backend API Development
 Backend API Developement for Posts using **NodeJS**, **Express** and **Mongoose**
 
 #### Posts URL Design:-
