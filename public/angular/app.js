@@ -1,0 +1,1 @@
+var blogPosts = angular.module('blogPosts', ['ngRoute']);

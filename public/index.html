@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MEAN Stack Blog</title>
+</head>
+<body ng-app="blogPosts">
+	<header>
+		<div class="container">
+			<div class="logo">Mean Stack Blog</div>
+			<nav>
+				<ul>
+					<li>Home</li>
+					<li>About</li>
+					<li>Contact</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<!-- Views Accroding to Routes -->
+	<div ng-view></div>
+
+	<!-- AngularJS -->
+	<script src="node_modules/angular/angular.js"></script>
+	<script src="node_modules/angular-route/angular-route.js"></script>
+
+	<!-- Angular Module -->
+	<script src="angular/app.js"></script>
+
+	<!-- Angular Config -->
+	<script src="angular/app.config.js"></script>
+
+	<!-- Angular Controllers -->
+	<script src="angular/controllers/postsController.js"></script>
+	<script src="angular/controllers/postController.js"></script>
+
+	<!-- Angular Services -->
+	<script src="angular/services/backendData.js"></script>
+
+</body>
+</html>

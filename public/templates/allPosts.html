@@ -1,0 +1,5 @@
+<section class="posts">
+	<ul ng-repeat="post in vm.posts">
+		<li><a ng-href="#!/post/{{ post._id }}">{{ post.title }} by {{ post.by }}</a></li>
+	</ul>
+</section>

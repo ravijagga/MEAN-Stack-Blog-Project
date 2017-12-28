@@ -18,6 +18,8 @@
   "author": "Ravi Jagga",
   "license": "ISC",
   "dependencies": {
+    "angular": "^1.6.8",
+    "angular-route": "^1.6.8",
     "bluebird": "^3.5.1",
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
